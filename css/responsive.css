@@ -783,18 +783,18 @@
 .main-menu .navbar-header .navbar-toggle{
   display:inline-block;
   z-index:7;
-  border: 2px solid #138ca7;
+  border: 2px solid #4285f4;
   float:none;
   margin:0px;
 }       
 .main-menu .navbar-header .navbar-toggle .icon-bar {
-  background: #138ca7 none repeat scroll 0 0;
+  background: #4285f4 none repeat scroll 0 0;
   font-weight: 700;
 }
     
         
 .main-menu .navbar-collapse > .navigation {
-  background: #138ca7 !important;
+  background: #4285f4 !important;
   float: none !important;
   margin: 0 !important;
   width: 100% !important;
@@ -861,7 +861,7 @@
   padding:10px 10px !important;
   line-height:22px;
   color:#ffffff;
-  background:#138ca7;
+  background:#4285f4;
   text-align:left;
 }    
     
