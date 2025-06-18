@@ -722,9 +722,16 @@ select:focus {
   font-size: 14px;
   transition: all 500ms ease 0s;
 } */
+
+
+/* active */
+.navigation li a.current {
+  color: #007bff; /* Blue color */
+  font-weight: bold;
+}
+
 .main-menu .navigation > li:hover > a, .main-menu .navigation > li.current > a {
-  color: #4285f4;
-  opacity: 1;
+
 }
 .main-menu .navigation > li > ul {
   position: absolute;
@@ -1671,7 +1678,7 @@ select:focus {
   z-index:10;		
 }
 .brand-area .brand .single-item {
-  border: 2px solid #c9a565;
+  border: 2px solid #ddd;
   height: 90px;
   -webkit-transition: all 300ms ease-in 0s;
   transition: all 300ms ease-in 0s;
@@ -1688,8 +1695,7 @@ select:focus {
   width: auto !important;
 }
 .brand-area .brand .single-item:hover{
-  border: 2px solid #c5a264;
-  background: #cfa65e;
+  transform: scale(0.9);
 }
 .brand-area .brand .single-item:hover img{
   opacity: .9;
@@ -1966,7 +1972,7 @@ select:focus {
 }
 .footer-bottom-area .copyright-text p {
     color: #c1c1c1;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -2000,8 +2006,20 @@ select:focus {
 .footer-bottom-area .footer-menu ul li a:hover i{
   color: #4285f4;
 }
-
-
+.wdt{
+  width: 20%;
+}
+.wth2{
+  width: 38%;
+}
+@media only screen and (max-width: 720px){
+  .wdt{
+  width: 100%;
+}
+.wth2{
+  width: 100%;
+}
+}
 
 /*** 
 =============================================
@@ -6429,7 +6447,6 @@ padding-left: 20px;
 
 .sec-title.text-center {
   text-align: center;
-  margin-bottom: 30px;
 }
 
 .sec-title h2 {
@@ -6466,7 +6483,7 @@ padding-left: 20px;
 
 .features-list li {
   margin-bottom: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-left: 20px;
   position: relative;
 }
